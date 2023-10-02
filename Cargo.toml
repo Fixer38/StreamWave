@@ -7,5 +7,8 @@ edition = "2021"
 
 [dependencies]
 oauth2 = "4.4.2"
+reqwest = { version = "0.11.20", features = ["json"] }
 thiserror = "1.0.48"
 url = "2.4.1"
+tokio = { version = "1.0.0", features = ["rt", "rt-multi-thread", "macros"] }
+serde = "1.0.188"
